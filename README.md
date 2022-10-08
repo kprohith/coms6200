@@ -1,2 +1,2 @@
-# coms6200
+# COMS6200
 SDN Network Statistics and Visualization
