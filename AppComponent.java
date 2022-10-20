@@ -112,7 +112,7 @@ public class AppComponent implements SomeInterface {
                         //log.info("Getting info for port " + p.number());
 
                         PortStatistics portStat = deviceService.getDeltaStatisticsForPort(d.id(), p.number());
-                        PortStatistics portDeltaStat = deviceService.getDeltaStatisticsForPort(d.id(), p.number());
+                        // PortStatistics portDeltaStat = deviceService.getDeltaStatisticsForPort(d.id(), p.number());
 
                         if (portStat != null) {
                             //log.info("portStat bytes received: " + portStat.bytesReceived());
@@ -121,12 +121,12 @@ public class AppComponent implements SomeInterface {
                             continue;
                         }
 
-                        if (portDeltaStat != null) {
+                        //if (portDeltaStat != null) {
                             //log.info("portDeltaStat bytes received: " + portDeltaStat.bytesReceived());
-                        } else {
+                        //} else {
                             //log.info("Unable to read portDeltaStat");
-                            continue;
-                        }
+                          //  continue;
+                        //}
                         // String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new java.util.Date());
                         String timeStamp =  LocalDateTime.now().toString();
                         String[] stats = { timeStamp, d.id().toString(), p.number().toString(),
