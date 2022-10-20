@@ -152,7 +152,7 @@ cloud.id: "SDN-TeamJ:YXVzdHJhbGlhLXNvdXRoZWFzdDEuZ2NwLmVsYXN0aWMtY2xvdWQuY29tOjQ
 
 # The cloud.auth setting overwrites the `output.elasticsearch.username` and
 # `output.elasticsearch.password` settings. The format is `<user>:<pass>`.
-cloud.auth: "elastic:MO380Umbqx1sLihZPEXw8maD"
+cloud.auth: "elastic:$PASSWORD"
 
 # ================================== Outputs ===================================
 
