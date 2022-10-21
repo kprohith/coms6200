@@ -91,7 +91,7 @@ The app has been successfully installed if you see the following message
 ```bash
 | 226 - org.hub.app.hub - 1.10.0 | Starting app
 | 226 - org.hub.app.hub - 1.10.0 | Writing header
-
+```
 19.) Check the log file
 ```bash
 cd ~
