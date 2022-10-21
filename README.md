@@ -1,4 +1,4 @@
-# COMS6200
+# SDN Network Statistics and Visualization
 SDN Network Statistics and Visualization using [Onos](https://opennetworking.org/onos/) and the [ELK](https://www.elastic.co/what-is/elk-stack) Stack
 
 # Setup and Configuration for running Onos and Mininet
@@ -98,4 +98,4 @@ cd ~
 tail data.csv
 ```
 20.) Go to the [ElasticCloud](https://cloud.elastic.co/home) deployment page and click on the ```Discover``` tab. You should see the data from the log file.
-You can import visualization using the dashboard.json file.
+You can import the Kibana visualizations using the dashboard.json file.
