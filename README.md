@@ -34,7 +34,7 @@ start-onos-local
 ```
 6.) In a new terminal, clone the repo
 ```bash
-cd `
+cd ~
 git clone https://github.com/kprohith/coms6200/
 ```
 
